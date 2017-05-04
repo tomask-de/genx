@@ -1,13 +1,18 @@
-Floor;Room;Lights;Shutters;Heating;Sockets;ReedContacts
-EG;R.00.01;4;4;1;8;4
-EG;R.00.02;2;1;1;1;1
-EG;R.00.03;1;1;1;1;1
-EG;R.00.04;1;1;0;1;1
-OG;R.01.01;1;1;1;2;1
-OG;R.01.02;1;1;1;2;1
-OG;R.01.03;1;1;1;2;1
-OG;R.01.04;1;1;1;4;1
-OG;R.01.05;1;1;1;2;1
-OG;R.01.06;3;1;1;1;1
-OG;R.01.07;1;0;0;0;0
-OG;R.01.08;1;0;0;0;0
+Floor,Room,Description,Lights,Shutters,Heating,Sockets,ReedContacts
+EG,R.00.01,Wohnen|Essen|Kochen,4,4,1,8,4
+EG,R.00.02,WC Gast,2,1,1,1,1
+EG,R.00.03,Flur|Garderobe,1,1,1,1,1
+EG,R.00.04,HAR|HWR,1,1,0,1,2
+OG,R.01.01,Kinderzimmer I,1,1,1,2,1
+OG,R.01.02,Kinderzimmer II,1,1,1,2,1
+OG,R.01.03,Buero|Gast,1,1,1,2,1
+OG,R.01.04,Schlafen,1,1,1,4,1
+OG,R.01.05,Ankleiden,1,1,1,2,1
+OG,R.01.06,Bad,3,1,1,1,1
+OG,R.01.07,Abstellen,1,0,0,0,0
+OG,R.01.08,Flur OG,1,0,0,0,0
+ELW,R.00.05,Flur ELW,1,0,0,0,1
+ELW,R.00.06,Bad ELW,2,1,1,1,1
+ELW,R.00.07,Schlafen ELW,1,1,1,4,1
+ELW,R.00.08,Kochen ELW,1,1,1,4,1
+ELW,R.00.09,Wohnen|Essen ELW,2,2,1,4,2

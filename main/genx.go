@@ -29,11 +29,11 @@ func main() {
 	defer d.Close()
 
 	r := csv.NewReader(f)
-	r.Comma = ';'
-	r.FieldsPerRecord = 7
+	r.Comma = ','
+	r.FieldsPerRecord = 8
 
 	w := csv.NewWriter(d)
-	w.Comma = ';'
+	w.Comma = ','
 	defer w.Flush()
 
 	records, err := r.ReadAll()
@@ -53,18 +53,18 @@ func main() {
 			currentFloor = r[0]
 			currentFloorNumber++
 		}
-		lights, err := strconv.Atoi(r[2])
-		shutters, err := strconv.Atoi(r[3])
-		heating, err := strconv.Atoi(r[4])
-		sockets, err := strconv.Atoi(r[5])
-		reedContacts, err := strconv.Atoi(r[6])
+		lights, err := strconv.Atoi(r[3])
+		shutters, err := strconv.Atoi(r[4])
+		heating, err := strconv.Atoi(r[5])
+		sockets, err := strconv.Atoi(r[6])
+		reedContacts, err := strconv.Atoi(r[7])
 
 		if err != nil {
 			fmt.Printf("could not read input: %s", err.Error())
 			os.Exit(3)
 		}
 
-		room := genx.NewRoom(r[1], lights, shutters, heating, sockets, reedContacts)
+		room := genx.NewRoom(r[1], r[2], lights, shutters, heating, sockets, reedContacts)
 		f, ok := floors[currentFloor]
 		if ok {
 			f.Rooms = append(f.Rooms, room)
@@ -74,10 +74,10 @@ func main() {
 		}
 	}
 	w.Write([]string{"Main", "Middle", "Sub", "Main", "Middle", "Sub", "Central", "Unfiltered", "Description", "DatapointType", "Security"})
-	w.Write([]string{"", "", "", "0"})
-	w.Write([]string{"", "", "", "0", "0"})
-	w.Write([]string{"", "", "", "0", "0"})
-	w.Write([]string{"", "", "", "0", "0", "1"})
+	w.Write([]string{"", "", "", "0", "", "", "", "", "", "", "", ""})
+	w.Write([]string{"", "", "", "0", "0", "", "", "", "", "", "", ""})
+	w.Write([]string{"", "", "", "0", "0", "", "", "", "", "", "", ""})
+	w.Write([]string{"", "", "", "0", "0", "1", "", "", "", "", "", ""})
 	for _, floor := range floors {
 		floor.Generate(w, genx.Actuators[genx.MDT])
 	}
