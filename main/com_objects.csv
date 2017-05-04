@@ -1,10 +1,10 @@
 Main,Middle,Sub,Main,Middle,Sub,Central,Unfiltered,Description,DatapointType,Security
-,,,0,,,,,,,,
-,,,0,0,,,,,,,
-,,,0,0,,,,,,,
-,,,0,0,1,,,,,,
-EG,,,1
-,Licht,,1,0
+,,,0,,,,,,,
+,,,0,0,,,,,,
+,,,0,0,,,,,,
+,,,0,0,1,,,,,
+EG,,,1,,,,,,,
+,Licht,,1,0,,,,,,
 ,,L_EG_R.00.01_01_Schalten_1B,1,0,1,,,Wohnen|Essen|Kochen 1,,
 ,,L_EG_R.00.01_01_Treppenlicht_1B,1,0,2,,,Wohnen|Essen|Kochen 2,,
 ,,L_EG_R.00.01_01_Service_erforderlich_1B,1,0,3,,,Wohnen|Essen|Kochen 3,,
@@ -157,7 +157,7 @@ EG,,,1
 ,,L_EG_R.00.04_01_Schwellwertschalter_1By_2By,1,0,150,,,HAR|HWR 150,,
 ,,L_EG_R.00.04_01_Logik_1_1B,1,0,151,,,HAR|HWR 151,,
 ,,L_EG_R.00.04_01_Logik_2_1B,1,0,152,,,HAR|HWR 152,,
-,Rollladen,,1,1
+,Rollladen,,1,1,,,,,,
 ,,R_EG_R.00.01_01_Automatikposition_1_1B,1,1,1,,,Wohnen|Essen|Kochen 1,,
 ,,R_EG_R.00.01_01_Automatikposition_2_1B,1,1,2,,,Wohnen|Essen|Kochen 2,,
 ,,R_EG_R.00.01_01_Automatikposition_3_1B,1,1,3,,,Wohnen|Essen|Kochen 3,,
@@ -403,7 +403,7 @@ EG,,,1
 ,,R_EG_R.00.04_01_Status_Beschattung_bereit_1B,1,1,243,,,HAR|HWR 243,,
 ,,R_EG_R.00.04_01_Status_Beschattung_Zustand_1B,1,1,244,,,HAR|HWR 244,,
 ,,R_EG_R.00.04_01_Diagnose_1B,1,1,245,,,HAR|HWR 245,,
-,Heizung,,1,2
+,Heizung,,1,2,,,,,,
 ,,H_EG_R.00.01_01_Temperaturmesswert_2By,1,2,1,,,Wohnen|Essen|Kochen 1,,
 ,,H_EG_R.00.01_01_Vorlauftemperatur_2By,1,2,2,,,Wohnen|Essen|Kochen 2,,
 ,,H_EG_R.00.01_01_Sperren_1B,1,2,3,,,Wohnen|Essen|Kochen 3,,
@@ -470,7 +470,7 @@ EG,,,1
 ,,H_EG_R.00.03_01_Hitzealarm_1B,1,2,64,,,Flur|Garderobe 64,,
 ,,H_EG_R.00.03_01_Sollwertverschiebung_1B,1,2,65,,,Flur|Garderobe 65,,
 ,,H_EG_R.00.03_01_Diagnosetext_14By,1,2,66,,,Flur|Garderobe 66,,
-,Fensterkontakte,,1,3
+,Fensterkontakte,,1,3,,,,,,
 ,,FK_EG_R.00.01_01_Schalter_1B,1,3,1,,,Wohnen|Essen|Kochen 1,,
 ,,FK_EG_R.00.01_01_Wert_für_Umschaltung_1B,1,3,2,,,Wohnen|Essen|Kochen 2,,
 ,,FK_EG_R.00.01_01_Szene_1By,1,3,3,,,Wohnen|Essen|Kochen 3,,
@@ -543,7 +543,7 @@ EG,,,1
 ,,FK_EG_R.00.04_02_Eingangslogik_1B_1B,1,3,70,,,HAR|HWR 70,,
 ,,FK_EG_R.00.04_02_Ausgangslogik_1_1B,1,3,71,,,HAR|HWR 71,,
 ,,FK_EG_R.00.04_02_Ausgangslogik_1_Szene_1By,1,3,72,,,HAR|HWR 72,,
-,Steckdosen,,1,4
+,Steckdosen,,1,4,,,,,,
 ,,S_EG_R.00.01_01_Schalten_1B,1,4,1,,,Wohnen|Essen|Kochen 1,,
 ,,S_EG_R.00.01_01_Treppenlicht_1B,1,4,2,,,Wohnen|Essen|Kochen 2,,
 ,,S_EG_R.00.01_01_Service_erforderlich_1B,1,4,3,,,Wohnen|Essen|Kochen 3,,
@@ -753,8 +753,8 @@ EG,,,1
 ,,S_EG_R.00.04_01_Schwellwertschalter_1By_2By,1,4,207,,,HAR|HWR 207,,
 ,,S_EG_R.00.04_01_Logik_1_1B,1,4,208,,,HAR|HWR 208,,
 ,,S_EG_R.00.04_01_Logik_2_1B,1,4,209,,,HAR|HWR 209,,
-OG,,,1
-,Licht,,2,0
+OG,,,2,,,,,,,
+,Licht,,2,0,,,,,,
 ,,L_OG_R.01.01_01_Schalten_1B,2,0,1,,,Kinderzimmer I 1,,
 ,,L_OG_R.01.01_01_Treppenlicht_1B,2,0,2,,,Kinderzimmer I 2,,
 ,,L_OG_R.01.01_01_Service_erforderlich_1B,2,0,3,,,Kinderzimmer I 3,,
@@ -945,7 +945,7 @@ OG,,,1
 ,,L_OG_R.01.08_01_Schwellwertschalter_1By_2By,2,0,188,,,Flur OG 188,,
 ,,L_OG_R.01.08_01_Logik_1_1B,2,0,189,,,Flur OG 189,,
 ,,L_OG_R.01.08_01_Logik_2_1B,2,0,190,,,Flur OG 190,,
-,Rollladen,,2,1
+,Rollladen,,2,1,,,,,,
 ,,R_OG_R.01.01_01_Automatikposition_1_1B,2,1,1,,,Kinderzimmer I 1,,
 ,,R_OG_R.01.01_01_Automatikposition_2_1B,2,1,2,,,Kinderzimmer I 2,,
 ,,R_OG_R.01.01_01_Automatikposition_3_1B,2,1,3,,,Kinderzimmer I 3,,
@@ -1156,7 +1156,7 @@ OG,,,1
 ,,R_OG_R.01.06_01_Status_Beschattung_bereit_1B,2,1,208,,,Bad 208,,
 ,,R_OG_R.01.06_01_Status_Beschattung_Zustand_1B,2,1,209,,,Bad 209,,
 ,,R_OG_R.01.06_01_Diagnose_1B,2,1,210,,,Bad 210,,
-,Heizung,,2,2
+,Heizung,,2,2,,,,,,
 ,,H_OG_R.01.01_01_Temperaturmesswert_2By,2,2,1,,,Kinderzimmer I 1,,
 ,,H_OG_R.01.01_01_Vorlauftemperatur_2By,2,2,2,,,Kinderzimmer I 2,,
 ,,H_OG_R.01.01_01_Sperren_1B,2,2,3,,,Kinderzimmer I 3,,
@@ -1289,7 +1289,7 @@ OG,,,1
 ,,H_OG_R.01.06_01_Hitzealarm_1B,2,2,130,,,Bad 130,,
 ,,H_OG_R.01.06_01_Sollwertverschiebung_1B,2,2,131,,,Bad 131,,
 ,,H_OG_R.01.06_01_Diagnosetext_14By,2,2,132,,,Bad 132,,
-,Fensterkontakte,,2,3
+,Fensterkontakte,,2,3,,,,,,
 ,,FK_OG_R.01.01_01_Schalter_1B,2,3,1,,,Kinderzimmer I 1,,
 ,,FK_OG_R.01.01_01_Wert_für_Umschaltung_1B,2,3,2,,,Kinderzimmer I 2,,
 ,,FK_OG_R.01.01_01_Szene_1By,2,3,3,,,Kinderzimmer I 3,,
@@ -1344,7 +1344,7 @@ OG,,,1
 ,,FK_OG_R.01.06_01_Eingangslogik_1B_1B,2,3,52,,,Bad 52,,
 ,,FK_OG_R.01.06_01_Ausgangslogik_1_1B,2,3,53,,,Bad 53,,
 ,,FK_OG_R.01.06_01_Ausgangslogik_1_Szene_1By,2,3,54,,,Bad 54,,
-,Steckdosen,,2,4
+,Steckdosen,,2,4,,,,,,
 ,,S_OG_R.01.01_01_Schalten_1B,2,4,1,,,Kinderzimmer I 1,,
 ,,S_OG_R.01.01_01_Treppenlicht_1B,2,4,2,,,Kinderzimmer I 2,,
 ,,S_OG_R.01.01_01_Service_erforderlich_1B,2,4,3,,,Kinderzimmer I 3,,
@@ -1592,8 +1592,8 @@ OG,,,1
 ,,S_OG_R.01.06_01_Schwellwertschalter_1By_2By,2,4,245,,,Bad 245,,
 ,,S_OG_R.01.06_01_Logik_1_1B,2,4,246,,,Bad 246,,
 ,,S_OG_R.01.06_01_Logik_2_1B,2,4,247,,,Bad 247,,
-ELW,,,1
-,Licht,,3,0
+ELW,,,3,,,,,,,
+,Licht,,3,0,,,,,,
 ,,L_ELW_R.00.05_01_Schalten_1B,3,0,1,,,Flur ELW 1,,
 ,,L_ELW_R.00.05_01_Treppenlicht_1B,3,0,2,,,Flur ELW 2,,
 ,,L_ELW_R.00.05_01_Service_erforderlich_1B,3,0,3,,,Flur ELW 3,,
@@ -1727,8 +1727,8 @@ ELW,,,1
 ,,L_ELW_R.00.09_02_Schwellwertschalter_1By_2By,3,0,131,,,Wohnen|Essen ELW 131,,
 ,,L_ELW_R.00.09_02_Logik_1_1B,3,0,132,,,Wohnen|Essen ELW 132,,
 ,,L_ELW_R.00.09_02_Logik_2_1B,3,0,133,,,Wohnen|Essen ELW 133,,
-,Rollladen,,3,1
-,Rollladen,,3,1
+,Rollladen,,3,1,,,,,,
+,Rollladen,,3,1,,,,,,
 ,,R_ELW_R.00.06_01_Automatikposition_1_1B,3,1,1,,,Bad ELW 1,,
 ,,R_ELW_R.00.06_01_Automatikposition_2_1B,3,1,2,,,Bad ELW 2,,
 ,,R_ELW_R.00.06_01_Automatikposition_3_1B,3,1,3,,,Bad ELW 3,,
@@ -1904,8 +1904,8 @@ ELW,,,1
 ,,R_ELW_R.00.09_02_Status_Beschattung_bereit_1B,3,1,173,,,Wohnen|Essen ELW 173,,
 ,,R_ELW_R.00.09_02_Status_Beschattung_Zustand_1B,3,1,174,,,Wohnen|Essen ELW 174,,
 ,,R_ELW_R.00.09_02_Diagnose_1B,3,1,175,,,Wohnen|Essen ELW 175,,
-,Heizung,,3,2
-,Heizung,,3,2
+,Heizung,,3,2,,,,,,
+,Heizung,,3,2,,,,,,
 ,,H_ELW_R.00.06_01_Temperaturmesswert_2By,3,2,1,,,Bad ELW 1,,
 ,,H_ELW_R.00.06_01_Vorlauftemperatur_2By,3,2,2,,,Bad ELW 2,,
 ,,H_ELW_R.00.06_01_Sperren_1B,3,2,3,,,Bad ELW 3,,
@@ -1994,7 +1994,7 @@ ELW,,,1
 ,,H_ELW_R.00.09_01_Hitzealarm_1B,3,2,86,,,Wohnen|Essen ELW 86,,
 ,,H_ELW_R.00.09_01_Sollwertverschiebung_1B,3,2,87,,,Wohnen|Essen ELW 87,,
 ,,H_ELW_R.00.09_01_Diagnosetext_14By,3,2,88,,,Wohnen|Essen ELW 88,,
-,Fensterkontakte,,3,3
+,Fensterkontakte,,3,3,,,,,,
 ,,FK_ELW_R.00.05_01_Schalter_1B,3,3,1,,,Flur ELW 1,,
 ,,FK_ELW_R.00.05_01_Wert_für_Umschaltung_1B,3,3,2,,,Flur ELW 2,,
 ,,FK_ELW_R.00.05_01_Szene_1By,3,3,3,,,Flur ELW 3,,
@@ -2049,8 +2049,8 @@ ELW,,,1
 ,,FK_ELW_R.00.09_02_Eingangslogik_1B_1B,3,3,52,,,Wohnen|Essen ELW 52,,
 ,,FK_ELW_R.00.09_02_Ausgangslogik_1_1B,3,3,53,,,Wohnen|Essen ELW 53,,
 ,,FK_ELW_R.00.09_02_Ausgangslogik_1_Szene_1By,3,3,54,,,Wohnen|Essen ELW 54,,
-,Steckdosen,,3,4
-,Steckdosen,,3,4
+,Steckdosen,,3,4,,,,,,
+,Steckdosen,,3,4,,,,,,
 ,,S_ELW_R.00.06_01_Schalten_1B,3,4,1,,,Bad ELW 1,,
 ,,S_ELW_R.00.06_01_Treppenlicht_1B,3,4,2,,,Bad ELW 2,,
 ,,S_ELW_R.00.06_01_Service_erforderlich_1B,3,4,3,,,Bad ELW 3,,

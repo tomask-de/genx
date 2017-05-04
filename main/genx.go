@@ -74,10 +74,10 @@ func main() {
 		}
 	}
 	w.Write([]string{"Main", "Middle", "Sub", "Main", "Middle", "Sub", "Central", "Unfiltered", "Description", "DatapointType", "Security"})
-	w.Write([]string{"", "", "", "0", "", "", "", "", "", "", "", ""})
-	w.Write([]string{"", "", "", "0", "0", "", "", "", "", "", "", ""})
-	w.Write([]string{"", "", "", "0", "0", "", "", "", "", "", "", ""})
-	w.Write([]string{"", "", "", "0", "0", "1", "", "", "", "", "", ""})
+	w.Write([]string{"", "", "", "0", "", "", "", "", "", "", ""})
+	w.Write([]string{"", "", "", "0", "0", "", "", "", "", "", ""})
+	w.Write([]string{"", "", "", "0", "0", "", "", "", "", "", ""})
+	w.Write([]string{"", "", "", "0", "0", "1", "", "", "", "", ""})
 	for _, floor := range floors {
 		floor.Generate(w, genx.Actuators[genx.MDT])
 	}
